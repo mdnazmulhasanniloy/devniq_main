@@ -31,7 +31,7 @@ const Blogs = () => {
           </FadeUp>
           {/* Dekstop Blog   */}
           <div className="hidden lg:block">
-          <div className="flex items-center flex-wrap  justify-between">
+          <div className="flex items-center flex-wrap gap-5 justify-evenly">
             <FadeLeft>
               <BlogCard
                 src={"/smooth-user-experience.svg"}
