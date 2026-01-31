@@ -43,7 +43,7 @@ const Contact = () => {
  
       <div className="py-10 md:py-15 lg:py-20 bg-[#FFFFFF]">
         <ResponsiveContainer>
-          <div className="flex items-center flex-wrap justify-evenly lg:justify-between xl:justify-evenly">
+          <div className="flex items-center flex-wrap justify-evenly lg:flex-nowrap lg:justify-between xl:justify-evenly gap-6">
              <FadeLeft >  
             <div className="">
              
@@ -73,12 +73,12 @@ const Contact = () => {
               <div className="flex items-center justify-center lg:justify-start font-manrope pb-6 lg:pb-0 gap-x-10">
                 <div className="">
                   <h4 className="text-[#808080] pb-1">Reach out to us</h4>
-                  <h3 className="text-[#FF7A08] text-[18px] font-semibold">devniq@gmail.com</h3>
+                  <h3 className="text-[#FF7A08] text-[18px] font-semibold">devniqit@gmail.com</h3>
                 </div>
 
                 <div className="">
                   <h4 className="text-[#808080] pb-1">Contact with us</h4>
-                  <h3 className="text-[#FF7A08] text-[18px] font-semibold">+880-1903486922</h3>
+                  <h3 className="text-[#FF7A08] text-[18px] font-semibold">+8801700992610</h3>
                 </div>
               </div>
               

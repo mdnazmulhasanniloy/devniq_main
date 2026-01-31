@@ -12,6 +12,7 @@ import ResponsiveContainer from "../ResponsiveContainer/ResponsiveContainer.jsx"
 import SectionHeader from "../SectionHeader/SectionHeader.jsx";
 import { Button } from "../ui/button.jsx";
 import { Input } from "../ui/input.jsx";
+import { FaWhatsapp } from "react-icons/fa";
 
 const links = [
   { name: "About Us", href: "#about" },
@@ -25,6 +26,7 @@ const socialIcons = [
   { icon: FaLinkedinIn, url: "https://linkedin.com" },
   { icon: FaXTwitter, url: "https://twitter.com" },
   { icon: FaInstagram, url: "https://instagram.com" },
+  { icon: FaWhatsapp, url: "https://wa.me/8801700992610" }
 ];
 
 const Footer = () => {
@@ -133,12 +135,13 @@ const Footer = () => {
                   Reach out
                 </h3>
 
-                <ul className="font-inter space-y-2 sm:space-y-[26px] text-[#CCD0D5]">
-                  <li>📩 Herexample..zahry.com</li>
+              <ul className="font-inter space-y-2 sm:space-y-[26px] text-[#CCD0D5]">
+                  <li>📩 devniqit@gmail.com</li>
                   <li className="leading-6 md:max-w-[320px]  ">
                     📍 Road 03, Block C, Banasree , Dhaka, Dhaka, Bangladesh
                   </li>
-                  <li>📱 +880-12385694356</li>
+                  <li>☎️ +8801700992610</li>
+                  
                 </ul>
               </div>
 
@@ -154,7 +157,7 @@ const Footer = () => {
               ⓒ Copyright 2025. All rights reserved
             </span>
 
-            <ul className="flex flex-wrap items-center justify-center sm:justify-start gap-2 sm:gap-x-4">
+            <ul className="flex flex-wrap items-center justify-center sm:justify-start gap-2 sm:gap-x-4 pr-5">
               {socialIcons.map((item, idx) => (
                 <li
                   key={idx}

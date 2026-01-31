@@ -47,7 +47,7 @@ const Faq = () => {
           SubClassName="font-semibold opacity-80 max-w-[612px] m-auto leading-[150%] px-5 md:px-0"
         />
 </FadeUp>
-        <div className="flex justify-evenly flex-wrap lg:gap-x-[21px]">
+        <div className="flex justify-evenly flex-wrap lg:gap-x-[21px] lg:flex-nowrap">
 
           {/*  Left Animated Card */}
           <FadeLeft>
